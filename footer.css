@@ -1,0 +1,47 @@
+footer {
+    background: url(shared/foot_back.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 20vh;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-copy {
+    color: white;
+}
+#contact_links {
+    justify-content: center;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 30vh;
+        color: white;
+    }
+    #footer-copy {
+        padding-left: 0rem;
+        text-align: center;
+    }
+    #contact-links {
+        padding-bottom: 1rem;
+    }
+    #contact-links a {
+        text-decoration: none;
+        color: white;
+    }
+}

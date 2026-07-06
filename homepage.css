@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styles for the hero section */
+
+/* desktop */
+@media (min-width: 768px) {
+    #hero {
+        background: url(shared/background.webp) no-repeat center center fixed;
+        background-size: cover;
+        height: 98vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-nav {
+        padding: 1rem;
+    }
+    #hero-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    #hero-content {
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    #hero-text {
+        margin-left: 20rem;
+    }
+    #button {
+        margin-left: 20rem;
+        height: 100%;
+    }
+    #hero-text h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    #hero-text p {
+        font-size: 1.25rem;
+    }
+    #hero-button {
+        border: 2px solid white;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        width: fit-content;
+        color: black;
+        background: white;
+        border-radius: 10px;
+    }
+    #evanscreates {
+        text-align: left;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    #hero {
+        background: url(shared/background.webp) no-repeat center center fixed;
+        background-size: cover;
+        height: 98vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-nav {
+        padding: 1rem;
+    }
+    #hero-nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    #hero-content {
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    #hero-text {
+        text-align: center;
+    }
+    #button {
+        margin-left: 0;
+        height: 100%;
+        text-align: center;
+    }
+    #hero-button {
+        border: 2px solid white;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        width: fit-content;
+        color: black;
+        background: white;
+        border-radius: 10px;
+    }
+    #evanscreates {
+        text-align: center;
+    }
+}
+
+/* styles for the services section */
+/* desktop */
+@media (min-width: 768px) {
+    #services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    #services-title {
+        text-align: center;
+        grid-column: span 2;
+    }
+    #services-img {
+        text-align: center;
+    }
+    #services-img img {
+        width: 60%;
+        height: auto;
+        border-radius: 20px;
+    }
+    #services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding-right: 13rem;
+        font-size: 1.25rem;
+    }
+    #services-button {
+        border: 2px solid #000;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        width: fit-content;
+        color: white;
+        background: #000;
+        border-radius: 10px;
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    #services {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    #services-title {
+        text-align: center;
+        grid-column: span 1;
+    }
+    #services-img {
+        text-align: center;
+    }
+    #services-img img {
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+    }
+    #services-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #services-button {
+        border: 2px solid #000;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        width: fit-content;
+        color: white;
+        background: #000;
+        border-radius: 10px;
+    }
+}
+
