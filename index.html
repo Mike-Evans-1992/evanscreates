@@ -26,7 +26,25 @@
             </div>
             <div id="hero-blank"></div>
             <div id="button">
-                <a id="hero-button" href="services.html">Browse our Services</a>
+                <div id="consult-btn">
+                <!-- Google Calendar Appointment Scheduling begin -->
+                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                <script>
+                (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                    calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Okw6wxBXTZeKG9bdRCh8o1s8D6k7PVvWaOEHGcEl99wAWByb_jiBELQhVf5MmHO-NKMqcugLI?gv=true',
+                    color: '#ffffff',
+                    label: 'Schedule a 15-min Call',
+                    target,
+                    });
+                });
+                })();
+                </script>
+                <!-- end Google Calendar Appointment Scheduling -->
+            </div>
             </div>
             <div id="hero-blank"></div>
             
@@ -34,7 +52,62 @@
         </div>
     </main>
         
-    <!-- Services Section -->
+    <section id="about">
+        <div id="about-title">
+            <h1>What We Do</h1>
+        </div>
+        <div id="about-img">
+            <img src="shared/services.webp" alt="schedule your consulatation">
+        </div>
+        <div id="about-text">
+            <h3>Websites Built for Your Business</h3>
+            <p>
+                I build clean, fast, custom websites that load instantly and get out of the way of your customers. Whether you need 
+                to get found on Google or streamline your workflow, I've got you covered:
+            </p>
+            <ul>
+                <li><strong>The Single-Page Launchpad:</strong> Perfect for service providers (landscapers, mechanics, contractors) who just need a clean, professional face for their business.</li>
+                <li><strong>Modern Upgrades:</strong> Tearing down slow, outdated sites and rebuilding them to look sharp on mobile and load in milliseconds.</li>
+                <li><strong>Custom Integrations:</strong> Hooking up contact forms, domain routing, and scheduling tools so your site runs on autopilot.</li>
+                <li><strong>Hassle-Free Management:</strong> You run your business, I run the code. I handle the hosting updates, security optimization, and routine content tweaks so your site never goes down or goes out of date.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="consult">
+        <h3>Got 15 Minutes? Let's Talk Web.</h3>
+        <p>
+            Whether you need a simple landing page or just want to figure out how to get your domain hooked up, I'm here to help. 
+            Grab a quick slot on my calendar and let's bounce some ideas around for your business.
+        </p>
+        <p>
+            Or, if it's easier, text me at <a href="sms:+13155303328">(315) 530-3328</a>.
+        </p>
+        <div id="consult-btn">
+            <!-- Google Calendar Appointment Scheduling begin -->
+            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+            <script>
+            (function() {
+            var target = document.currentScript;
+            window.addEventListener('load', function() {
+                calendar.schedulingButton.load({
+                url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Okw6wxBXTZeKG9bdRCh8o1s8D6k7PVvWaOEHGcEl99wAWByb_jiBELQhVf5MmHO-NKMqcugLI?gv=true',
+                color: '#000000',
+                label: "Let's Chat",
+                target,
+                });
+            });
+            })();
+            </script>
+            <!-- end Google Calendar Appointment Scheduling -->
+        </div>
+    </section>
+
+    <!-- 
+    
+    possible delete
+    ***Services Section*** 
     <section id="services">
         <div id="services-title">
             <h1>Services</h1>
@@ -51,6 +124,9 @@
             <a id="services-button" href="services.html">See Our Services</a>
         </div>
     </section>
+
+
+    -->
     
     <footer>
         <div id="footer-copy">
