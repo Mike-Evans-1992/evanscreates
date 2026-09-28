@@ -1,3 +1,9 @@
+:root {
+  --gm3-sys-color-surface: #ffffff !important;
+  --gm3-sys-color-surface-container: #ffffff !important;
+  color-scheme: light !important;
+}
+
 body {
     margin: 0;
     padding: 0;
