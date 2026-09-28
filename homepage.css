@@ -5,6 +5,7 @@ body {
 }
 
 iframe[src*="calendar.google.com"] {
+    color-scheme: light !important;
     background-color: #FFFFFF !important;
 }
 /* styles for the hero section */
